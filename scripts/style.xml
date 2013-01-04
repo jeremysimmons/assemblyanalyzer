@@ -1,0 +1,14 @@
+<project name="AssStyle" default="analyzerxml" basedir=".">
+
+	<property name="src" location="${basedir}"/>
+	<property name="out" location="${basedir}/../out"/>
+	<property name="version" value="1.0"/>	
+	
+	<target name="analyzerxml">		
+		<style in="${out}/out.xml" 
+	        out="${out}/out.html"
+			style="${basedir}/assanalyzer.xsl">	
+		</style>
+	</target>
+	
+</project>

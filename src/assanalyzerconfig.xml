@@ -1,0 +1,26 @@
+<assanalyzer>
+	<bundles>
+		<bundle>/Library/Frameworks/2.0/mscorlib.dll</bundle>
+		<bundle>../monodir/Mono.Http.dll</bundle>
+		<bundle>../monodir/Mono.Data.dll</bundle>
+		<bundle>../monodir/Mono.Security.dll</bundle>
+	</bundles>
+	
+	<outputtypes>
+		<output>
+			<type>Analyzed</type>
+			<file>../out/out.grph</file>
+		</output>
+		
+		<output>
+			<type>All</type>
+			<file>../out/outall.grph</file>
+		</output>
+		
+		<output>
+			<type>xml</type>
+			<file>../out/out.xml</file>
+		</output>
+	</outputtypes>
+	
+</assanalyzer>
